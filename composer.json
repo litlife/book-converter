@@ -1,0 +1,34 @@
+{
+  "name": "litlife/book-converter",
+  "description": "Converter of various book formats",
+  "version": "0.0.1",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Litlife",
+      "email": "litlife@yandex.ru"
+    }
+  ],
+  "require": {
+    "litlife/url": "^0.0",
+    "symfony/process": "^5.1",
+    "php": "^8.0.2",
+    "ext-mbstring": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Litlife\\BookConverter\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Litlife\\BookConverter\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}
