@@ -1,7 +1,7 @@
 {
   "name": "litlife/book-converter",
   "description": "Converter of various book formats",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "authors": [
     {
@@ -10,10 +10,10 @@
     }
   ],
   "require": {
+    "php": "^8.2.0",
+    "ext-mbstring": "*",
     "litlife/url": "^0.0",
-    "symfony/process": "^5.1",
-    "php": "^8.0.2",
-    "ext-mbstring": "*"
+    "symfony/process": "^5.1 || ^7.0"
   },
   "require-dev": {
     "phpunit/phpunit": "^8.5"
